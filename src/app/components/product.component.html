@@ -1,0 +1,10 @@
+<h2>Drinks</h2>
+<div *ngFor="let item of productsArr">
+    <img src="{{item.url}}">
+    <br>
+    <span>{{item.name}}</span>
+    <div class="filler"></div>
+    <br>
+    <button (click)="addCart(item.name)">Add</button>
+    <br><br>
+</div>

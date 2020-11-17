@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "csfworkshopday02"
+  "defaultProject": "csfworkshopday02",
+  "cli": {
+    "analytics": false
+  }
 }
