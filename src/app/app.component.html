@@ -2,7 +2,7 @@
   <app-product class="cardListItem" [productsArr]="products" (onProductAdd)="populateCart($event)"></app-product>
   <div class="cardListItem">
   <h2>Cart</h2>
-    <div *ngFor="let item of addedProds">
+    <div *ngFor="let item of carts">
         <img src="{{item.url}}">
         <br>
         <span>{{item.name}} -  Quantity: {{item.count}} </span>
